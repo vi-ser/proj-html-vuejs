@@ -27,6 +27,7 @@ export default {
 
 #jumbo-quotes {
     background-image: url('/img/h3-testimonials-bckgrnd.jpg');
+    margin-bottom: $smallMargin;
 
 
     .small-container {
