@@ -2,6 +2,8 @@
 
 import NavItem from '../components/NavItem.vue'
 import JumboCarousel from '../components/JumboCarousel.vue'
+import JumboQuotes from '../components/JumboQuotes.vue'
+
 
 export default {
     name: 'AppHeader',
@@ -9,6 +11,7 @@ export default {
     components: {
         NavItem,
         JumboCarousel,
+        JumboQuotes,
     },
 }
 </script>
@@ -21,9 +24,10 @@ export default {
             <img class="jumbo-img" src="/img/h3-rev-img-6.png" alt="">
             <img class="text-bg" src="/img/h3-rev-img-5.png" alt="">
         </div>
-        <JumboCarousel>
-        </JumboCarousel>
     </div>
+    <JumboCarousel>
+    </JumboCarousel>
+    <JumboQuotes></JumboQuotes>
 </template>
 
 <style lang="scss" scoped>
@@ -32,13 +36,12 @@ export default {
     /* height: 610px; */
 
     .img-container {
-        height: 400px;
         position: relative;
-        margin-bottom: 60px;
+        padding-bottom: 60px;
 
 
         .jumbo-img {
-            height: 100%;
+            height: 400px;
             z-index: 1;
         }
 
