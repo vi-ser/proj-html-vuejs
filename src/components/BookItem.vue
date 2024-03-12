@@ -10,6 +10,7 @@ export default {
         <div class="input-container">
             <input type="text" class="input-field border border-1 border-black" placeholder="1 Person">
             <i class="icon fa-solid fa-user-group"></i>
+            <span class="powered">*Powered by OpenTable</span>
         </div>
         <div class="preposition d-flex justify-content-center text-center">
             <span class="oswald-medium text-uppercase text-white">FOR</span>
@@ -64,6 +65,18 @@ export default {
         right: 25px;
         transform: translateY(-50%);
         color: $accent;
+    }
+
+    .powered {
+        margin-top: 10px;
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        font-size: .8em;
+
+        color: white;
     }
 
     .preposition {

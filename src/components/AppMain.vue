@@ -1,5 +1,6 @@
 <script>
 import OffersItem from '../components/OffersItem.vue'
+import ImageCollage from '../components/ImageCollage.vue'
 import PeopleCarousel from '../components/PeopleCarousel.vue'
 import PartnersItem from '../components/PartnersItem.vue'
 import PizzaCarousel from '../components/PizzaCarousel.vue'
@@ -11,6 +12,7 @@ export default {
 
     components: {
         OffersItem,
+        ImageCollage,
         PeopleCarousel,
         PartnersItem,
         PizzaCarousel,
@@ -23,6 +25,7 @@ export default {
 
 <template>
     <OffersItem></OffersItem>
+    <ImageCollage></ImageCollage>
     <PeopleCarousel></PeopleCarousel>
     <PartnersItem></PartnersItem>
     <PizzaCarousel></PizzaCarousel>
