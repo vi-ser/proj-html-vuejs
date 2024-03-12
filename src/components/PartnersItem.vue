@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div id="partners" class="d-flex justify-content-center">
+    <div id="partners" class="d-flex justify-content-center align-content-center">
         <div class="logo-container">
             <img src="/img/h1-clients-img-4.png" alt="">
         </div>
@@ -38,7 +38,7 @@ export default {
         align-items: center;
 
         img {
-            height: 80%;
+            width: 100%;
         }
     }
 }

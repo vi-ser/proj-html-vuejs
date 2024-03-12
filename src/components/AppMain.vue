@@ -2,6 +2,7 @@
 import OffersItem from '../components/OffersItem.vue'
 import PeopleCarousel from '../components/PeopleCarousel.vue'
 import PartnersItem from '../components/PartnersItem.vue'
+import PizzaCarousel from '../components/PizzaCarousel.vue'
 
 export default {
     name: 'AppMain',
@@ -10,6 +11,7 @@ export default {
         OffersItem,
         PeopleCarousel,
         PartnersItem,
+        PizzaCarousel,
     }
 
 }
@@ -19,6 +21,7 @@ export default {
     <OffersItem></OffersItem>
     <PeopleCarousel></PeopleCarousel>
     <PartnersItem></PartnersItem>
+    <PizzaCarousel></PizzaCarousel>
 </template>
 
 <style lang="scss"></style>

@@ -1,0 +1,39 @@
+{
+    "pizzas": [
+        {
+            "image": "/img/pizza-h3-champignon.png",
+            "name": "Street Style",
+            "price": "$30.00"
+        },
+        {
+            "image": "/img/pizza-h3-cucumber.png",
+            "name": "Urban Delight",
+            "price": "$50.00"
+        },
+        {
+            "image": "/img/pizza-h3-kebab.png",
+            "name": "Skater's Special",
+            "price": "$55.00"
+        },
+        {
+            "image": "/img/pizza-h3-pepperoni.png",
+            "name": "Hip-Hop Heat",
+            "price": "$45.00"
+        },
+        {
+            "image": "/img/pizza-h3-sausage.png",
+            "name": "Graffiti",
+            "price": "$60.00"
+        },
+        {
+            "image": "/img/pizza-h3-vegetarian.png",
+            "name": "Alleyway Feast",
+            "price": "60.00"
+        },
+        {
+            "image": "/img/pizza-h3-zucchini.png",
+            "name": "Tagged Fusion",
+            "price": "$70.00"
+        }
+    ]
+}

@@ -3,7 +3,7 @@ import { store } from './store';
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
-
+import PizzeData from './assets/pizzas.json';
 
 export default {
 
@@ -16,7 +16,15 @@ export default {
   data() {
     return {
       store,
+      pizzas: PizzeData.pizzas,
     }
+  },
+
+  methods: {
+  },
+
+  created() {
+    this.store.pizza = PizzeData.pizzas;
   },
 }
 </script>

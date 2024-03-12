@@ -38,6 +38,7 @@ export default {
     .img-container {
         position: relative;
         padding-bottom: 60px;
+        overflow: hidden;
 
 
         .jumbo-img {
@@ -47,7 +48,7 @@ export default {
 
         .text-bg {
             position: absolute;
-            height: 320px;
+            width: 780px;
             bottom: 100px;
 
         }

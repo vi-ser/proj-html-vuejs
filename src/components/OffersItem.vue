@@ -12,9 +12,9 @@ export default {
         <div class="right d-flex align-items-center justify-content-center">
             <div class="offers-container">
 
-                <h3 class="text-uppercase oswald-medium">
+                <h2 class="text-uppercase oswald-medium">
                     specials*
-                </h3>
+                </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesent ut!</p>
                 <div class="menu d-flex">
                     <span class="price oswald-medium">$10</span>
@@ -77,7 +77,7 @@ export default {
         padding: 0 50px;
         color: $text;
 
-        h3 {
+        h2 {
             font-size: 2em;
             margin-bottom: 25px;
             padding: 0;
