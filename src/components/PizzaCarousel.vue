@@ -12,15 +12,9 @@ export default {
     data() {
         return {
             store,
-            currentIndex: 0,
         }
     },
-
-    methods: {
-
-    },
-
-}
+};
 </script>
 
 <template>
@@ -29,12 +23,16 @@ export default {
         <h2 class="text-uppercase oswald-medium">
             the best pizza menu in town
         </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut blandit arcu in<br>pretium molesstie. Interdum
-            et
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut blandit arcu in<br>pretium molesstie. Interdum et
             malesuada fames ac.</p>
     </div>
-    <ul id="pizza-carousel" class="list-unstyled d-flex justify-content-center overflow-hidden text-center">
-        <PizzaItem v-for="(currentPizza, index) in store.pizza" :key="index" :pizza="currentPizza"></PizzaItem>
+    <ul id="pizza-carousel" class="d-flex overflow-hidden ">
+        <div class="pizza-slider list-unstyled d-flex justify-content-center text-center">
+            <PizzaItem v-for="(currentPizza, index) in store.pizza" :key="index" :pizza="currentPizza"></PizzaItem>
+        </div>
+        <div class="pizza-slider list-unstyled d-flex justify-content-center text-center">
+            <PizzaItem v-for="(currentPizza, index) in store.pizza" :key="index" :pizza="currentPizza"></PizzaItem>
+        </div>
     </ul>
 </template>
 
@@ -44,6 +42,7 @@ export default {
 
 #carousel-section {
     padding: 105px 160px 0;
+
 
     span {
         color: $primary;
@@ -62,7 +61,21 @@ export default {
 }
 
 #pizza-carousel {
-    gap: 65px;
-    padding-bottom: 160px;
+
+
+    .pizza-slider {
+        padding-bottom: 160px;
+        animation: carousel-slide 20s infinite linear;
+    }
+
+    @keyframes carousel-slide {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
 }
 </style>

@@ -28,6 +28,8 @@ export default {
 @use '../styles/_variables' as *;
 
 li {
+    padding: 0 30px;
+
     .pizza-img {
         height: 240px;
         margin-bottom: 25px;

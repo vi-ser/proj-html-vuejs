@@ -94,6 +94,7 @@ export default {
         letter-spacing: 2px;
         padding: 15px 25px;
         width: 192.5px;
+        cursor: pointer;
     }
 }
 </style>
