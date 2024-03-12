@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import PizzeData from './assets/pizzas.json';
+import EventData from './assets/events.json';
 
 export default {
 
@@ -17,6 +18,7 @@ export default {
     return {
       store,
       pizzas: PizzeData.pizzas,
+      events: EventData.events,
     }
   },
 
@@ -25,6 +27,7 @@ export default {
 
   created() {
     this.store.pizza = PizzeData.pizzas;
+    this.store.event = EventData.events;
   },
 }
 </script>

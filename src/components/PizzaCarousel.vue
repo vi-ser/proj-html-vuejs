@@ -12,8 +12,13 @@ export default {
     data() {
         return {
             store,
+            currentIndex: 0,
         }
-    }
+    },
+
+    methods: {
+
+    },
 }
 </script>
 
@@ -28,7 +33,7 @@ export default {
             malesuada fames ac.</p>
     </div>
     <ul id="pizza-carousel" class="list-unstyled d-flex justify-content-center overflow-hidden text-center">
-        <PizzaItem v-for="currentPizza in store.pizza" :pizza="currentPizza"></PizzaItem>
+        <PizzaItem v-for="(currentPizza, index) in store.pizza" :key="index" :pizza="currentPizza"></PizzaItem>
     </ul>
 </template>
 

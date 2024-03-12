@@ -4,7 +4,8 @@ export default {
 
     props: {
         pizza: Object,
-    }
+    },
+
 }
 </script>
 
