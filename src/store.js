@@ -4,5 +4,6 @@ export const store = reactive({
 
     pizza: [],
     event: [],
+    link: [],
 
 });
