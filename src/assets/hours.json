@@ -1,0 +1,20 @@
+{
+    "hours": [
+        {
+            "day": "Monday",
+            "working_hour": "Kitchen Closed"
+        },
+        {
+            "day": "Tuesday until Friday",
+            "working_hour": "9.00 - 22.00"
+        },
+        {
+            "day": "Saturday",
+            "working_hour": "Saturday 11am to midnight"
+        },
+        {
+            "day": "Sunday",
+            "working_hour": "9.00 - 22.00"
+        }
+    ]
+}

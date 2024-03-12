@@ -1,0 +1,24 @@
+{
+    "restaurants": [
+        {
+            "address": "1614 E. Bell Rd, 104",
+            "city": "Salerno, AZ 85022",
+            "phone": "(602)867-1010"
+        },
+        {
+            "address": "Piazzetta Tommaso, 204",
+            "city": "Sorrento, AZ 85022",
+            "phone": "(358)867-1010"
+        },
+        {
+            "address": "Viale Puglia, 54",
+            "city": "Torre del Greco, AZ 85022",
+            "phone": "(359)867-1010"
+        },
+        {
+            "address": "Corso Italia, 16",
+            "city": "Naples, AZ 85022",
+            "phone": "(989)867-1010"
+        }
+    ]
+}

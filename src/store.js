@@ -5,5 +5,7 @@ export const store = reactive({
     pizza: [],
     event: [],
     link: [],
+    restaurant: [],
+    hour: [],
 
 });
