@@ -75,6 +75,7 @@ export default {
             font-size: 13px;
             letter-spacing: 2px;
             padding: 15px 25px;
+            cursor: pointer;
         }
     }
 

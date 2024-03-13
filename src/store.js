@@ -7,5 +7,6 @@ export const store = reactive({
     link: [],
     restaurant: [],
     hour: [],
+    team: [],
 
 });

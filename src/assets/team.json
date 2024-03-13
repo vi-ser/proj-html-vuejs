@@ -1,0 +1,80 @@
+{
+    "team": [
+        {
+            "name": "Michael Smith",
+            "profession": "Digital Marketer",
+            "img": "/img/h1-team-1a-700x700.jpg",
+            "social_links": [
+                {
+                    "platform": "fa-instagram",
+                    "link": "https://www.instagram.com/michaelsmithbrown"
+                },
+                {
+                    "platform": "fa-x-twitter",
+                    "link": "https://www.twitter.com/michaelsmithbrown"
+                },
+                {
+                    "platform": "fa-facebook-f",
+                    "link": "https://www.facebook.com/michaelsmithbrown"
+                }
+            ]
+        },
+        {
+            "name": "Jane Doe",
+            "profession": "Content Creator",
+            "img": "/img/h1-team-2a.jpg",
+            "social_links": [
+                {
+                    "platform": "fa-instagram",
+                    "link": "https://www.instagram.com/janedoejohnson"
+                },
+                {
+                    "platform": "fa-x-twitter",
+                    "link": "https://www.twitter.com/janedoejohnson"
+                },
+                {
+                    "platform": "fa-facebook-f",
+                    "link": "https://www.facebook.com/janedoejohnson"
+                }
+            ]
+        },
+        {
+            "name": "Emily Johnson",
+            "profession": "Social Media Manager",
+            "img": "/img/h1-team-3a.jpg",
+            "social_links": [
+                {
+                    "platform": "fa-instagram",
+                    "link": "https://www.instagram.com/emilyjohnsonjones"
+                },
+                {
+                    "platform": "fa-x-twitter",
+                    "link": "https://twitter.com/emilyjohnsonjones"
+                },
+                {
+                    "platform": "fa-facebook-f",
+                    "link": "https://www.facebook.com/emilyjohnsonjones"
+                }
+            ]
+        },
+        {
+            "name": "Frank Bailey",
+            "profession": "Kitchen Porter",
+            "img": "/img/h1-team-4a.jpg",
+            "social_links": [
+                {
+                    "platform": "fa-instagram",
+                    "link": "https://www.instagram.com/frankbailey"
+                },
+                {
+                    "platform": "fa-x-twitter",
+                    "link": "https://twitter.com/frankbailey"
+                },
+                {
+                    "platform": "fa-facebook-f",
+                    "link": "https://www.facebook.com/frankbailey"
+                }
+            ]
+        }
+    ]
+}

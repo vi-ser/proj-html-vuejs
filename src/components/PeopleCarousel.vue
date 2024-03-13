@@ -1,17 +1,27 @@
 <script>
+import { store } from '../store';
+import TeamCard from '../components/TeamCard.vue';
+
 export default {
     name: 'PeopleCarousel',
+
+    data() {
+        return {
+            store,
+        }
+    },
+
+    components: {
+        TeamCard,
+    }
 
 }
 </script>
 
 <template>
-    <div id="carousel" class="d-flex">
-        <img src="/img/h1-team-1a-700x700.jpg" alt="">
-        <img src="/img/h1-team-2a.jpg" alt="">
-        <img src="/img/h1-team-3a.jpg" alt="">
-        <img src="/img/h1-team-4a.jpg" alt="">
-    </div>
+    <ul id="carousel" class="d-flex list-unstyled">
+        <TeamCard v-for="currentMember in store.team" :team="currentMember"></TeamCard>
+    </ul>
 </template>
 
 <style lang="scss" scoped>
@@ -20,10 +30,5 @@ export default {
 
 #carousel {
     margin-bottom: $smallMargin;
-
-    img {
-        width: calc(100% / 4);
-        height: 100%;
-    }
 }
 </style>
