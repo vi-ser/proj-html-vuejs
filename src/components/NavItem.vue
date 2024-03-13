@@ -76,6 +76,10 @@ export default {
             letter-spacing: 2px;
             padding: 15px 25px;
             cursor: pointer;
+
+            &:hover {
+                background-color: $primaryDark;
+            }
         }
     }
 

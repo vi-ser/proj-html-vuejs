@@ -95,6 +95,10 @@ export default {
         padding: 15px 25px;
         width: 192.5px;
         cursor: pointer;
+
+        &:hover {
+            background-color: $primaryDark;
+        }
     }
 }
 </style>

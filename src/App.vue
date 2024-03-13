@@ -9,6 +9,7 @@ import EventData from './assets/events.json';
 import RestaurantData from './assets/restaurants.json';
 import HourData from './assets/hours.json';
 import TeamData from './assets/team.json';
+import QuoteData from './assets/quotes.json';
 
 
 export default {
@@ -28,6 +29,7 @@ export default {
       restaurants: RestaurantData.restaurants,
       hours: HourData.hours,
       team: TeamData.team,
+      quotes: QuoteData.quotes,
     }
   },
 
@@ -41,6 +43,7 @@ export default {
     this.store.restaurant = RestaurantData.restaurants;
     this.store.hour = HourData.hours;
     this.store.team = TeamData.team;
+    this.store.quote = QuoteData.quotes;
   },
 }
 </script>
